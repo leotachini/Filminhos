@@ -1,0 +1,88 @@
+#texto1{
+    font-size: medium;
+}
+body{
+    background-color: #5F0404;
+    color: aliceblue;
+}
+
+img{
+    padding: 20px;
+}
+
+img:hover {
+    transition: 0.8s;
+    color: #fff;
+    background-color: rgb(255, 0, 85);
+}
+
+#menu{
+    color: darkcyan;
+}
+
+a{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: normal;
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: black;
+    color: #FFF;
+    width: 100%;
+    height: 50px;    
+    text-align: left;
+    padding: 20px;
+    line-height: 50px;
+}
+
+
+.laranja{
+    background-color: rgb(255, 169, 8);
+    transition: all 1 ease-in-out;
+
+}
+.azul{
+    background-color: rgb(23, 2, 78);
+    transition: all 0.25 ease-in-out;
+    
+}
+.vermelho{
+    background-color: rgb(126, 6, 6);
+    transition: all 0.25 ease-in-out;
+   
+}
+.rosa{
+    background-color: rgb(250, 102, 134);
+    transition: all 0.25 ease-in-out;
+   
+}
+.verde{
+    background-color: rgb(26, 121, 13);
+    transition: all 0.25 ease-in-out;
+   
+}
+
+button{
+    padding: 5px 5px;
+    border: 0;
+    border-radius: 5px;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 10px; 
+}
+
+div.container{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 90vw;
+    text-align: center;
+}

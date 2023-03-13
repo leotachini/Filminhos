@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Não sei que nome dar para esse site</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <center>
+    <h1>Menu Principal</h1>
+    </center>
+    <footer>
+        <a id="menu" href="index.html" >Menu Principal</a>
+        <a id="menu" href="Filmes.html" >Filmes</a>
+        <a id="menu" href="Series.html" >Séries</a>
+      </footer>
+      <br>
+      <br>
+      <div class="container">
+        <button class="vermelho" id="bt-vermelho">Trocar a cor do site para Vermelho</button>
+        <button class="laranja" id="bt-laranja">Trocar a cor do site para Laranja</button>
+        <button class="azul" id="bt-azul">Trocar a cor do site para Azul</button>
+        <button class="rosa" id="bt-rosa">Trocar a cor do site para Rosa</button>
+        <button class="verde" id="bt-verde">Trocar a cor do site para Verde</button>
+            </div>
+    <br>
+    <br>
+    <div>
+        <a href="Filmes.html">
+        <img width="300px" align="left" src="Imagens/pipoca cinema.png" >
+    </a>
+   <a href="Series.html">
+    <img width="300px" align="left" src="Imagens/tv.png" >
+    </a>
+    </div>
+    <script>
+        document.getElementById("bt-laranja").addEventListener("click", function(){
+            document.querySelector("body").setAttribute("class","laranja");
+ })
+ document.getElementById("bt-azul").addEventListener("click", function(){
+            document.querySelector("body").setAttribute("class","azul");
+ })
+ document.getElementById("bt-vermelho").addEventListener("click", function(){
+            document.querySelector("body").setAttribute("class","vermelho");
+ })
+ document.getElementById("bt-rosa").addEventListener("click", function(){
+            document.querySelector("body").setAttribute("class","rosa");
+ })
+ document.getElementById("bt-verde").addEventListener("click", function(){
+            document.querySelector("body").setAttribute("class","verde");
+ })
+    </script>
+
+    
+  
+</body>
+</html>
